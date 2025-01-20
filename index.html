@@ -16,7 +16,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" type="text/javascript"></script>
     <script type="text/javascript">
         function getDog(){
-            $.getJSON("https://dog.ceo/api/breeds/image/random", function(data) {
+            $.getJSON("https://random-d.uk/api/images/51.jpg", function(data) {
                 $(".api-details").html("<p>API Response: " + JSON.stringify(data) + "</p>");
                 $(".image-content").html("<img src='" + data.message + "' style='max-width: 100%; height: auto;'>");
             });
